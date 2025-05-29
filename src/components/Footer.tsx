@@ -13,17 +13,17 @@ export const Footer = () => {
   console.log(getLocalTime("Europe/Prague"));
 
   return (
-    <footer className="mt-10 flex justify-between grow place-items-end">
+    <footer className="mt-10 flex grow gap-2 place-items-end justify-between">
       <div className="flex flex-col">
-        <span className="text-zinc-400 text-sm sm:text-base">
+        <span className="text-sm text-zinc-400 sm:text-base">
           Currently in Prague, Czech Republic 🇨🇿
         </span>
-        <span className="text-xs sm:text-sm text-zinc-600">
+        <span className="text-xs text-zinc-600 sm:text-sm">
           {getLocalTime("Europe/Prague")}
         </span>
       </div>
       <div>
-        <span className="text-xs sm:text-sm text-zinc-400">
+        <span className="text-xs text-zinc-400 sm:text-sm whitespace-nowrap">
           © {new Date().getFullYear()} dmajer
         </span>
       </div>

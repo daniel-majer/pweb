@@ -2,11 +2,16 @@ import { SquareArrowOutUpRightIcon } from "lucide-react";
 import React, { type JSX } from "react";
 import { Link } from "react-router";
 
+type Icons = {
+  icon: JSX.Element;
+  name: string;
+};
+
 type ProjectProps = {
   name: string;
   description: string;
   image: string;
-  icons: JSX.Element[];
+  icons: Icons[];
 };
 
 export const Project = ({ data }: { data: ProjectProps }) => {
@@ -22,7 +27,16 @@ export const Project = ({ data }: { data: ProjectProps }) => {
         <div className="flex justify-between">
           <span className="font-bold">{name}</span>
           <div className="flex items-center gap-1">
-            {icons.map((icon, idx) => React.cloneElement(icon, { key: idx }))}
+            {icons.map((icon, index) => {
+              return (
+                <div key={index} className="group relative">
+                  {icon.icon}
+                  <span className="absolute bottom-full w-max mb-1 hidden rounded bg-zinc-800 px-2 py-1 text-xs text-white group-hover:block">
+                    {icon.name}
+                  </span>
+                </div>
+              );
+            })}
           </div>
         </div>
         <div className="flex justify-between">

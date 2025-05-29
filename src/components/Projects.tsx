@@ -15,47 +15,95 @@ import { Project } from "./Project";
 
 const projects = [
   {
-    image: "../../public/nexora-project.png",
+    image: "../../nexora-project.png",
     name: "Nexora",
     description: "Eshop sales management system",
     icons: [
-      <RiSupabaseLine size={18} />,
-      <SiReactquery size={18} />,
-      <BiLogoTailwindCss size={22} />,
-      <BiLogoReact size={22} />,
-      <BiLogoTypescript size={22} />,
+      {
+        icon: <RiSupabaseLine size={18} />,
+        name: "Supabase",
+      },
+      {
+        icon: <SiReactquery size={18} />,
+        name: "Tanstack Query",
+      },
+      {
+        icon: <BiLogoTailwindCss size={22} />,
+        name: "TailwindCSS",
+      },
+      {
+        icon: <BiLogoReact size={22} />,
+        name: "React",
+      },
+      {
+        icon: <BiLogoTypescript size={22} />,
+        name: "Typescript",
+      },
     ],
   },
   {
-    image: "../../public/motorew-project.png",
+    image: "../../motorew-project.png",
     name: "Motorew",
     description: "Presentational website for Motorew",
     icons: [
-      <BiLogoCss3 size={22} />,
-      <BiLogoHtml5 size={22} />,
-      <BiLogoJavascript size={22} />,
+      {
+        icon: <BiLogoCss3 size={22} />,
+        name: "CSS3",
+      },
+      {
+        icon: <BiLogoHtml5 size={22} />,
+        name: "HTML5",
+      },
+      {
+        icon: <BiLogoJavascript size={22} />,
+        name: "Javascript",
+      },
     ],
   },
   {
-    image: "../../public/motorew-project.png",
+    image: "../../motorew-project.png",
     name: "Motorew",
     description: "Presentational website for Motorew",
     icons: [
-      <BiLogoCss3 size={22} />,
-      <BiLogoHtml5 size={22} />,
-      <BiLogoJavascript size={22} />,
+      {
+        icon: <BiLogoCss3 size={22} />,
+        name: "CSS3",
+      },
+      {
+        icon: <BiLogoHtml5 size={22} />,
+        name: "HTML5",
+      },
+      {
+        icon: <BiLogoJavascript size={22} />,
+        name: "Javascript",
+      },
     ],
   },
   {
-    image: "../../public/nexora-project.png",
+    image: "../../nexora-project.png",
     name: "Nexora",
     description: "Eshop sales management system",
     icons: [
-      <RiSupabaseLine size={18} />,
-      <SiReactquery size={18} />,
-      <BiLogoTailwindCss size={22} />,
-      <BiLogoReact size={22} />,
-      <BiLogoTypescript size={22} />,
+      {
+        icon: <RiSupabaseLine size={18} />,
+        name: "Supabase",
+      },
+      {
+        icon: <SiReactquery size={18} />,
+        name: "Tanstack Query",
+      },
+      {
+        icon: <BiLogoTailwindCss size={22} />,
+        name: "TailwindCSS",
+      },
+      {
+        icon: <BiLogoReact size={22} />,
+        name: "React",
+      },
+      {
+        icon: <BiLogoTypescript size={22} />,
+        name: "Typescript",
+      },
     ],
   },
 ];
