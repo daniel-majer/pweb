@@ -15,9 +15,11 @@ import { Project } from "./Project";
 
 const projects = [
   {
-    image: "../../nexora-project.png",
-    name: "Nexora",
+    image: "../../nexora-dark.png",
+    name: "Fullstack App - Nexora",
     description: "Eshop sales management system",
+    link: "https://nexora-peach-seven.vercel.app",
+    github: "https://github.com/daniel-majer/nexora",
     icons: [
       {
         icon: <RiSupabaseLine size={18} />,
@@ -45,6 +47,8 @@ const projects = [
     image: "../../motorew-project.png",
     name: "Motorew",
     description: "Presentational website for Motorew",
+    link: "https://motorew.sk/",
+    github: "https://github.com/daniel-majer/motorew-web",
     icons: [
       {
         icon: <BiLogoCss3 size={22} />,
@@ -61,9 +65,11 @@ const projects = [
     ],
   },
   {
-    image: "../../motorew-project.png",
-    name: "Motorew",
-    description: "Presentational website for Motorew",
+    image: "../../hangman-game.png",
+    name: "Hangman game",
+    description: "A classic Hangman game built with vanilla javascript",
+    link: "https://hangman-game-xi-three.vercel.app/",
+    github: "https://github.com/daniel-majer/hangman-game",
     icons: [
       {
         icon: <BiLogoCss3 size={22} />,
@@ -80,18 +86,12 @@ const projects = [
     ],
   },
   {
-    image: "../../nexora-project.png",
-    name: "Nexora",
-    description: "Eshop sales management system",
+    image: "../../seating-dark.png",
+    name: "Seating case study",
+    description: "A seating case study developed for NFCtron",
+    link: "https://seating-case-study.vercel.app/",
+    github: "https://github.com/daniel-majer/seating-case-study",
     icons: [
-      {
-        icon: <RiSupabaseLine size={18} />,
-        name: "Supabase",
-      },
-      {
-        icon: <SiReactquery size={18} />,
-        name: "Tanstack Query",
-      },
       {
         icon: <BiLogoTailwindCss size={22} />,
         name: "TailwindCSS",
@@ -103,6 +103,27 @@ const projects = [
       {
         icon: <BiLogoTypescript size={22} />,
         name: "Typescript",
+      },
+    ],
+  },
+  {
+    image: "../../quiz.png",
+    name: "SmartQuest game",
+    description: "Quiz game",
+    link: "https://quiz-app-neon-rho.vercel.app/",
+    github: "https://github.com/daniel-majer/quiz-app",
+    icons: [
+      {
+        icon: <BiLogoTailwindCss size={22} />,
+        name: "TailwindCSS",
+      },
+      {
+        icon: <BiLogoReact size={22} />,
+        name: "React",
+      },
+      {
+        icon: <BiLogoJavascript size={22} />,
+        name: "Javascript",
       },
     ],
   },

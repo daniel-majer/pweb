@@ -13,7 +13,7 @@ export const Footer = () => {
   console.log(getLocalTime("Europe/Prague"));
 
   return (
-    <footer className="mt-10 flex grow gap-2 place-items-end justify-between">
+    <footer className="mt-12 flex grow gap-2 place-items-end justify-between">
       <div className="flex flex-col">
         <span className="text-sm text-zinc-400 sm:text-base">
           Currently in Prague, Czech Republic 🇨🇿

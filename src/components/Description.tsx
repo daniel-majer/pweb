@@ -14,16 +14,17 @@ export const Description = () => {
     <div>
       <Heading>Daniel Majer</Heading>
       <h2 className="mb-3 text-xs text-zinc-500 sm:text-sm">
-        software engineer, passionate about startups, building and shipping code{" "}
+        software engineer, passionate about startups, building and shipping
+        code{" "}
       </h2>
       <div className="text-sm text-zinc-400 sm:text-base">
         <p className="max-w-2xl">
           I'm a software enthusiast passionate about{" "}
-          <span className="border-b border-dashed border-b-zinc-400 text-zinc-100">
+          <span className="cursor-default border-b border-dashed border-b-zinc-400 text-zinc-100">
             product building and development.
           </span>{" "}
-          I enjoy creating useful stuff on internet, learning by doing, and occasionally
-          sharing what I discover along the way.
+          I enjoy creating useful stuff on internet, learning by doing, and
+          occasionally sharing what I discover along the way.
         </p>
         <p className="mt-2">
           If you'd like to chat, feel free to reach out via one of the socials

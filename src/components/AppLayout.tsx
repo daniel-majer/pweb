@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { Header } from "./Header";
 import { Outlet } from "react-router";
 import createGlobe from "cobe";
@@ -38,7 +38,7 @@ export const AppLayout = () => {
         // Called on every animation frame.
         // `state` will be an empty object, return updated params.
         state.phi = phi;
-        phi += 0.002;
+        phi += 0.0013;
       },
     });
 
@@ -48,9 +48,9 @@ export const AppLayout = () => {
   }, []);
 
   return (
-    <div className="flex min-h-screen w-full  bg-zinc-950 pb-4">
+    <div className="flex min-h-screen w-full bg-zinc-950 pb-4">
       <canvas
-        className="pointer-events-none fixed z-0 h-[1500px] w-full opacity-20 sm:opacity-30"
+        className="pointer-events-none fixed z-0 h-[1500px] w-full opacity-30 sm:opacity-50"
         ref={canvasRef}
       />
       <div className="relative z-50 mx-auto flex w-full max-w-[768px] flex-col px-4 text-zinc-200">

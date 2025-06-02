@@ -3,14 +3,17 @@ import {
   SquareMousePointerIcon,
   WandSparklesIcon,
 } from "lucide-react";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 
 export const Header = () => {
   return (
     <div className="mb-6 flex items-center justify-between border-b border-b-zinc-800 py-2 sm:mb-14 sm:py-4">
-      <h1 className="cursor-default font-mono text-base font-semibold sm:text-xl">
-        dmajer
-      </h1>
+      <Link
+        to="/"
+        className="font-mono text-base font-semibold transition duration-300 hover:opacity-80 sm:text-xl"
+      >
+        dmajer.com
+      </Link>
       <nav>
         <ul className="flex gap-1 text-sm sm:gap-4">
           <li>
@@ -18,7 +21,9 @@ export const Header = () => {
               to="/"
               className={({ isActive }: { isActive: boolean }) =>
                 `flex items-center gap-1 rounded-sm px-1 py-0.5 sm:gap-2 sm:px-2 sm:py-1.5 ${
-                  isActive ? "bg-zinc-700/40" : ""
+                  isActive
+                    ? "bg-zinc-700/40"
+                    : "transition duration-300 hover:opacity-80"
                 }`
               }
             >
@@ -31,7 +36,9 @@ export const Header = () => {
               to="bookshelf"
               className={({ isActive }: { isActive: boolean }) =>
                 `flex items-center gap-1 rounded-sm px-1 py-0.5 sm:gap-2 sm:px-2 sm:py-1.5 ${
-                  isActive ? "bg-zinc-700/40" : ""
+                  isActive
+                    ? "bg-zinc-700/40"
+                    : "transition duration-300 hover:opacity-80"
                 }`
               }
             >
@@ -44,7 +51,9 @@ export const Header = () => {
               to="blog"
               className={({ isActive }: { isActive: boolean }) =>
                 `flex items-center gap-1 rounded-sm px-1 py-0.5 sm:gap-2 sm:px-2 sm:py-1.5 ${
-                  isActive ? "bg-zinc-700/40" : ""
+                  isActive
+                    ? "bg-zinc-700/40"
+                    : "transition duration-300 hover:opacity-80"
                 }`
               }
             >
