@@ -17,7 +17,7 @@ const projects = [
   {
     image: "../../nexora-dark.png",
     name: "Fullstack App - Nexora",
-    description: "Eshop sales management system",
+    description: "E-commerce sales management system",
     link: "https://nexora-peach-seven.vercel.app",
     github: "https://github.com/daniel-majer/nexora",
     icons: [
@@ -67,7 +67,7 @@ const projects = [
   {
     image: "../../hangman-game.png",
     name: "Hangman game",
-    description: "A classic Hangman game built with vanilla javascript",
+    description: "Classic Hangman game built with JavaScript",
     link: "https://hangman-game-xi-three.vercel.app/",
     github: "https://github.com/daniel-majer/hangman-game",
     icons: [
@@ -109,7 +109,7 @@ const projects = [
   {
     image: "../../quiz.png",
     name: "SmartQuest game",
-    description: "Quiz game",
+    description: "Interactive quiz game",
     link: "https://quiz-app-neon-rho.vercel.app/",
     github: "https://github.com/daniel-majer/quiz-app",
     icons: [
