@@ -6,7 +6,7 @@ const exp = [
     name: "NFCtron",
     position: "Frontend Software Engineer",
     icon: "/nfctron-icon.jpeg",
-    duration: "Jan 2025 - Jun 2025",
+    duration: "Sep 2024 - Jun 2025",
     description: (
       <>
         I built and maintained web applications for the ticketing and event
@@ -33,7 +33,7 @@ const exp = [
     name: "Freelance",
     position: "Frontend Web Developer",
     icon: "/globe-icon.svg",
-    duration: "Sep 2023 - Dec 2024",
+    duration: "Jul 2023 - Sep 2024",
     description: (
       <>
         While traveling the world, I focused on learning modern frontend
