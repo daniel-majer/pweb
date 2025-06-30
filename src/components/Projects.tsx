@@ -1,4 +1,3 @@
-import { SquareArrowOutUpRightIcon } from "lucide-react";
 import {
   BiLogoCss3,
   BiLogoHtml5,
@@ -7,8 +6,8 @@ import {
   BiLogoTailwindCss,
   BiLogoTypescript,
 } from "react-icons/bi";
-import { RiSupabaseLine } from "react-icons/ri";
-import { SiReactquery } from "react-icons/si";
+import { RiNextjsLine, RiSupabaseLine } from "react-icons/ri";
+import { SiPrisma, SiReactquery } from "react-icons/si";
 import { Heading } from "./Heading";
 import { Link } from "react-router";
 import { Project } from "./Project";
@@ -36,6 +35,35 @@ const projects = [
       {
         icon: <BiLogoReact size={22} />,
         name: "React",
+      },
+      {
+        icon: <BiLogoTypescript size={22} />,
+        name: "Typescript",
+      },
+    ],
+  },
+  {
+    image: "../../ticketwise.png",
+    name: "Fullstack App - Ticketwise",
+    description: "App is still in building mode",
+    link: "https://ticketwise-sepia.vercel.app/sign-in",
+    github: "https://github.com/daniel-majer/ticketwise",
+    icons: [
+      {
+        icon: <RiSupabaseLine size={18} />,
+        name: "Supabase",
+      },
+      {
+        icon: <SiPrisma size={18} />,
+        name: "Prisma",
+      },
+      {
+        icon: <BiLogoTailwindCss size={22} />,
+        name: "TailwindCSS",
+      },
+      {
+        icon: <RiNextjsLine size={22} />,
+        name: "Next.js",
       },
       {
         icon: <BiLogoTypescript size={22} />,
@@ -103,27 +131,6 @@ const projects = [
       {
         icon: <BiLogoTypescript size={22} />,
         name: "Typescript",
-      },
-    ],
-  },
-  {
-    image: "../../quiz.png",
-    name: "SmartQuest game",
-    description: "Interactive quiz game",
-    link: "https://quiz-app-neon-rho.vercel.app/",
-    github: "https://github.com/daniel-majer/quiz-app",
-    icons: [
-      {
-        icon: <BiLogoTailwindCss size={22} />,
-        name: "TailwindCSS",
-      },
-      {
-        icon: <BiLogoReact size={22} />,
-        name: "React",
-      },
-      {
-        icon: <BiLogoJavascript size={22} />,
-        name: "Javascript",
       },
     ],
   },

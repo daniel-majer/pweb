@@ -22,9 +22,15 @@ export const Project = ({ data }: { data: ProjectProps }) => {
     <Link
       to={link}
       target="_blank"
-      className="rounded-lg bg-zinc-700/60 p-2 transition duration-300 hover:opacity-80"
+      className="rounded-lg bg-zinc-800 p-2 transition duration-300 hover:opacity-80"
     >
-      <img src={image} alt="Nexora.sk web application" />
+      <div className="h-40">
+        <img
+          src={image}
+          className="h-full w-full rounded-md object-cover sm:object-contain"
+          alt={name}
+        />
+      </div>
       <div className="pt-2">
         <div className="flex justify-between">
           <span className="font-bold">{name}</span>
